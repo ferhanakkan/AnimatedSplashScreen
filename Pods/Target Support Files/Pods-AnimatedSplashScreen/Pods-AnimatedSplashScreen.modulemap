@@ -1,0 +1,6 @@
+module Pods_AnimatedSplashScreen {
+  umbrella header "Pods-AnimatedSplashScreen-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191A4D2F43D01AC9D3F53704E8EEA0E6 /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E027505B3BE7C04F6BCF92446F52D1 /* SwiftyGif.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2EF4F6F54402DBEEE09D02CD75C1571C /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C29511C1AFD452B439D6F8EC80820C0 /* UIImageView+SwiftyGif.swift */; };
+		46EBAD37E73B0C69DFA6F7969E63AC1A /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28976D993ADFC4B0E5E8F2939A518386 /* UIImage+SwiftyGif.swift */; };
+		4D88A60B0F538679FE220BA392F7A0DC /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 199496A26FA4A2DF541CDD5662036727 /* SwiftyGif-dummy.m */; };
+		74799EBBAFAFEBE16DBFC766A3649865 /* Pods-AnimatedSplashScreen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E550D792A8EBF858D81227213E9581C0 /* Pods-AnimatedSplashScreen-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93FCCDD4E0CFD6450CBE848F9331B448 /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FAD41AF0378C40FAC7B8380A4EEE51 /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		973DD9B86064352A37F9ABC79ED7FAE8 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28139B2001E781686BC0F301A5CC7A3B /* SwiftyGifManager.swift */; };
+		F15E4F01708456B5262A803E9812B71D /* Pods-AnimatedSplashScreen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C7A502117DA38C1B4ACEC099BEA76 /* Pods-AnimatedSplashScreen-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA67032F1030D6657ACEDAE5A8E355C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		199496A26FA4A2DF541CDD5662036727 /* SwiftyGif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGif-dummy.m"; sourceTree = "<group>"; };
+		1F42E2BB9EA23F65C2A47164E1507DA4 /* Pods-AnimatedSplashScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatedSplashScreen.debug.xcconfig"; sourceTree = "<group>"; };
+		28139B2001E781686BC0F301A5CC7A3B /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
+		28976D993ADFC4B0E5E8F2939A518386 /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		37C96672259A67888D83176E2D7BBD9B /* Pods-AnimatedSplashScreen-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimatedSplashScreen-acknowledgements.markdown"; sourceTree = "<group>"; };
+		796D16F3877F1A4A99F18C7A145A5434 /* SwiftyGif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.release.xcconfig; sourceTree = "<group>"; };
+		7AD67EFB9A7864151301DC2890207AA2 /* libSwiftyGif.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwiftyGif.a; path = libSwiftyGif.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C29511C1AFD452B439D6F8EC80820C0 /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		89E027505B3BE7C04F6BCF92446F52D1 /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
+		8BB011041899A9C8555FD879418EA76D /* Pods-AnimatedSplashScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatedSplashScreen.release.xcconfig"; sourceTree = "<group>"; };
+		8DF31D79B4EC1695C1B349411EB68CE8 /* SwiftyGif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0A20F69FD6BFA7B182D98F92C2E93F9 /* SwiftyGif.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyGif.modulemap; sourceTree = "<group>"; };
+		C09205A52067AE642ED53AEE84EBD032 /* libPods-AnimatedSplashScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AnimatedSplashScreen.a"; path = "libPods-AnimatedSplashScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC764D582D9D658FE4DC77EA978AA124 /* Pods-AnimatedSplashScreen-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimatedSplashScreen-acknowledgements.plist"; sourceTree = "<group>"; };
+		D00C7A502117DA38C1B4ACEC099BEA76 /* Pods-AnimatedSplashScreen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimatedSplashScreen-dummy.m"; sourceTree = "<group>"; };
+		E550D792A8EBF858D81227213E9581C0 /* Pods-AnimatedSplashScreen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimatedSplashScreen-umbrella.h"; sourceTree = "<group>"; };
+		E6C2FE5713CE8CE112230CFA7BF769F3 /* Pods-AnimatedSplashScreen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimatedSplashScreen.modulemap"; sourceTree = "<group>"; };
+		F5A067E56922580807F01114D9BEBB5C /* SwiftyGif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.debug.xcconfig; sourceTree = "<group>"; };
+		F5FAD41AF0378C40FAC7B8380A4EEE51 /* SwiftyGif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02721885FEBE20B19DE46333F6457258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE46BE1B23DCD09A121BB68419797CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E2708F5C85FEA682E41CBC4CAADB7F3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A4256DF5773DEFF6D9225F0CE687B84 /* Pods-AnimatedSplashScreen */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A4256DF5773DEFF6D9225F0CE687B84 /* Pods-AnimatedSplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E6C2FE5713CE8CE112230CFA7BF769F3 /* Pods-AnimatedSplashScreen.modulemap */,
+				37C96672259A67888D83176E2D7BBD9B /* Pods-AnimatedSplashScreen-acknowledgements.markdown */,
+				CC764D582D9D658FE4DC77EA978AA124 /* Pods-AnimatedSplashScreen-acknowledgements.plist */,
+				D00C7A502117DA38C1B4ACEC099BEA76 /* Pods-AnimatedSplashScreen-dummy.m */,
+				E550D792A8EBF858D81227213E9581C0 /* Pods-AnimatedSplashScreen-umbrella.h */,
+				1F42E2BB9EA23F65C2A47164E1507DA4 /* Pods-AnimatedSplashScreen.debug.xcconfig */,
+				8BB011041899A9C8555FD879418EA76D /* Pods-AnimatedSplashScreen.release.xcconfig */,
+			);
+			name = "Pods-AnimatedSplashScreen";
+			path = "Target Support Files/Pods-AnimatedSplashScreen";
+			sourceTree = "<group>";
+		};
+		4D8CB18EB62EC27178777DFCF719A59D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0A20F69FD6BFA7B182D98F92C2E93F9 /* SwiftyGif.modulemap */,
+				199496A26FA4A2DF541CDD5662036727 /* SwiftyGif-dummy.m */,
+				8DF31D79B4EC1695C1B349411EB68CE8 /* SwiftyGif-prefix.pch */,
+				F5FAD41AF0378C40FAC7B8380A4EEE51 /* SwiftyGif-umbrella.h */,
+				F5A067E56922580807F01114D9BEBB5C /* SwiftyGif.debug.xcconfig */,
+				796D16F3877F1A4A99F18C7A145A5434 /* SwiftyGif.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyGif";
+			sourceTree = "<group>";
+		};
+		C0228E476D18022EFE40765B57668DA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C09205A52067AE642ED53AEE84EBD032 /* libPods-AnimatedSplashScreen.a */,
+				7AD67EFB9A7864151301DC2890207AA2 /* libSwiftyGif.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D475238C46FDC4C20924A71287983F44 /* Pods */,
+				C0228E476D18022EFE40765B57668DA9 /* Products */,
+				2E2708F5C85FEA682E41CBC4CAADB7F3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D475238C46FDC4C20924A71287983F44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E70F13FC857B4FB9D839F418E1D4F673 /* SwiftyGif */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E70F13FC857B4FB9D839F418E1D4F673 /* SwiftyGif */ = {
+			isa = PBXGroup;
+			children = (
+				89E027505B3BE7C04F6BCF92446F52D1 /* SwiftyGif.h */,
+				28139B2001E781686BC0F301A5CC7A3B /* SwiftyGifManager.swift */,
+				28976D993ADFC4B0E5E8F2939A518386 /* UIImage+SwiftyGif.swift */,
+				7C29511C1AFD452B439D6F8EC80820C0 /* UIImageView+SwiftyGif.swift */,
+				4D8CB18EB62EC27178777DFCF719A59D /* Support Files */,
+			);
+			name = SwiftyGif;
+			path = SwiftyGif;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		992FBE2DCE756B891E8CA101E22769BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74799EBBAFAFEBE16DBFC766A3649865 /* Pods-AnimatedSplashScreen-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60C6BEA30BA13FB69ADD8F24EF855F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FCCDD4E0CFD6450CBE848F9331B448 /* SwiftyGif-umbrella.h in Headers */,
+				191A4D2F43D01AC9D3F53704E8EEA0E6 /* SwiftyGif.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9021EEB23B76D3343229F3A0F8DE5A35 /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
+			buildPhases = (
+				E60C6BEA30BA13FB69ADD8F24EF855F4 /* Headers */,
+				7042CAB5256719760859E9152A6F7737 /* Sources */,
+				02721885FEBE20B19DE46333F6457258 /* Frameworks */,
+				FB52510B604C62065422BA5703470230 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyGif;
+			productName = SwiftyGif;
+			productReference = 7AD67EFB9A7864151301DC2890207AA2 /* libSwiftyGif.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BCEA88A8169D166A2D5C57299F1DFACE /* Pods-AnimatedSplashScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48471998D4519863F015B1D625839585 /* Build configuration list for PBXNativeTarget "Pods-AnimatedSplashScreen" */;
+			buildPhases = (
+				992FBE2DCE756B891E8CA101E22769BE /* Headers */,
+				4F02152C34D7F16F864FEB6561DD69CA /* Sources */,
+				EFE46BE1B23DCD09A121BB68419797CB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31C31E3C81A6D1DA2CAF8F12724C4EBA /* PBXTargetDependency */,
+			);
+			name = "Pods-AnimatedSplashScreen";
+			productName = "Pods-AnimatedSplashScreen";
+			productReference = C09205A52067AE642ED53AEE84EBD032 /* libPods-AnimatedSplashScreen.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C0228E476D18022EFE40765B57668DA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCEA88A8169D166A2D5C57299F1DFACE /* Pods-AnimatedSplashScreen */,
+				15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FB52510B604C62065422BA5703470230 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwiftyGif/SwiftyGif.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwiftyGif/SwiftyGif-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftyGif/SwiftyGif.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftyGif/SwiftyGif-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F02152C34D7F16F864FEB6561DD69CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15E4F01708456B5262A803E9812B71D /* Pods-AnimatedSplashScreen-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7042CAB5256719760859E9152A6F7737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D88A60B0F538679FE220BA392F7A0DC /* SwiftyGif-dummy.m in Sources */,
+				973DD9B86064352A37F9ABC79ED7FAE8 /* SwiftyGifManager.swift in Sources */,
+				46EBAD37E73B0C69DFA6F7969E63AC1A /* UIImage+SwiftyGif.swift in Sources */,
+				2EF4F6F54402DBEEE09D02CD75C1571C /* UIImageView+SwiftyGif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31C31E3C81A6D1DA2CAF8F12724C4EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = CA67032F1030D6657ACEDAE5A8E355C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44FE9AAEAC5CA9977C4032B2AE01D656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796D16F3877F1A4A99F18C7A145A5434 /* SwiftyGif.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwiftyGif/SwiftyGif.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AE549F6EBEBD1493437AE06BC79C2983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB011041899A9C8555FD879418EA76D /* Pods-AnimatedSplashScreen.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimatedSplashScreen/Pods-AnimatedSplashScreen.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BA67F3879D0EBDC017CC7A424D842A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F42E2BB9EA23F65C2A47164E1507DA4 /* Pods-AnimatedSplashScreen.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimatedSplashScreen/Pods-AnimatedSplashScreen.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0B5564ACB673A7A75FD662701217EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A067E56922580807F01114D9BEBB5C /* SwiftyGif.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwiftyGif/SwiftyGif.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48471998D4519863F015B1D625839585 /* Build configuration list for PBXNativeTarget "Pods-AnimatedSplashScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA67F3879D0EBDC017CC7A424D842A76 /* Debug */,
+				AE549F6EBEBD1493437AE06BC79C2983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9021EEB23B76D3343229F3A0F8DE5A35 /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B5564ACB673A7A75FD662701217EF0 /* Debug */,
+				44FE9AAEAC5CA9977C4032B2AE01D656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
