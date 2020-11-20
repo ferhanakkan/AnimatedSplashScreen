@@ -16,13 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tKY-la-LRc">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="KzI-Pc-UCc"/>
-                                    <constraint firstAttribute="width" constant="240" id="R4o-SO-mw2"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Appcent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HwE-lF-OtT">
                                 <rect key="frame" x="127" y="524" width="160" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
@@ -33,8 +26,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.94902592900000005" green="0.94900828599999998" blue="0.9490202069" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="tKY-la-LRc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8BO-kN-MId"/>
-                            <constraint firstItem="tKY-la-LRc" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="9lx-Vx-xAP"/>
                             <constraint firstItem="HwE-lF-OtT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TzO-B4-5Hy"/>
                             <constraint firstItem="HwE-lF-OtT" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="100" id="aID-sV-u2Z"/>
                         </constraints>

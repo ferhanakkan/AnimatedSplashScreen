@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  AnimatedSplashScreen
-//
-//  Created by Ferhan Akkan on 19.11.2020.
-//
+
 
 import UIKit
 import SwiftyGif
@@ -20,11 +15,11 @@ class ViewController: UIViewController, SwiftyGifDelegate  {
 
         do {
             let gif = try UIImage(gifName: "logoGif.gif")
+            setLabelsHiddenAnimation()
             self.logoImageView.setGifImage(gif, loopCount: 1)
         } catch {
             print(error)
         }
-        view.layoutIfNeeded()
     }
     
     func setLabelsHiddenAnimation() {
